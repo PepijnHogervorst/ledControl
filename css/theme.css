@@ -1,0 +1,71 @@
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	color: #000000;
+}
+h1 {
+	font-size: 32px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.slidecontainer {
+    width: 90%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 95%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .1s;
+    transition: opacity .1s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.spectrum-background {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+	background-repeat: no-repeat;
+}
+
